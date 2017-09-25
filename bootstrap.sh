@@ -2,7 +2,6 @@
 cd "$(dirname "${BASH_SOURCE}")"
 git pull origin master
 # Updating my fork from mathiasbynens/dotfiles to keep up with changes
-git pull upstream master
 
 function doIt() {
 	rsync --exclude ".git/" \
